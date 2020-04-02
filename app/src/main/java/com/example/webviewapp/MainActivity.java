@@ -17,7 +17,8 @@ public class MainActivity extends AppCompatActivity {
     private WebView myWebView;
 
     public void showExternalWebPage(){
-        myWebView.loadUrl("http://his.se");
+
+        myWebView.loadUrl("https://his.se");
         // TODO: Add your code for showing external web page here
     }
 
@@ -34,6 +35,8 @@ public class MainActivity extends AppCompatActivity {
         setSupportActionBar(toolbar);
         myWebView = findViewById(R.id.my_webview);
         myWebView.getSettings().setJavaScriptEnabled(true);
+
+
 
         /*
         * Rename your App. Tip: Values->Strings
