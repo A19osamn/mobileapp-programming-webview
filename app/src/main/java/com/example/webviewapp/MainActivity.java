@@ -25,6 +25,7 @@ public class MainActivity extends AppCompatActivity {
     public void showInternalWebPage(){
         myWebView.loadUrl("file:///android_asset/index.html");
         // TODO: Add your code for showing internal web page here
+
     }
 
     @Override
@@ -69,6 +70,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+
             }
         });
     }
@@ -102,4 +104,5 @@ public class MainActivity extends AppCompatActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
 }
